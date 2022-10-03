@@ -1,5 +1,5 @@
-import 'package:awesome_rich_text/src/constants/style.dart';
-import 'package:awesome_rich_text/src/mappers/base_mapper.dart';
+import 'package:awesome_rich_text/src/style.dart';
+import 'package:awesome_rich_text/src/mappers/base.dart';
 import 'package:awesome_rich_text/src/mappers/color.dart';
 import 'package:awesome_rich_text/src/mappers/font_family.dart';
 import 'package:awesome_rich_text/src/mappers/font_size.dart';

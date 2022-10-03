@@ -1,6 +1,6 @@
-import 'package:awesome_rich_text/src/parsers/base_text_parser.dart';
+import 'package:awesome_rich_text/src/parsers/base.dart';
 import 'package:awesome_rich_text/src/parsers/parsers.dart';
-import 'package:awesome_rich_text/src/validators/text_span_validator.dart';
+import 'package:awesome_rich_text/src/validators/text_span.dart';
 import 'package:flutter/material.dart';
 
 class TextSpanParser extends BaseTextParser<TextSpan, TextSpanValidator> {

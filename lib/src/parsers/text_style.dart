@@ -1,6 +1,6 @@
 import 'package:awesome_rich_text/src/extensions/map.dart';
-import 'package:awesome_rich_text/src/parsers/base_text_parser.dart';
-import 'package:awesome_rich_text/src/validators/text_style_validator.dart';
+import 'package:awesome_rich_text/src/parsers/base.dart';
+import 'package:awesome_rich_text/src/validators/text_style.dart';
 import 'package:flutter/material.dart';
 
 class TextStyleParser extends BaseTextParser<TextStyle?, TextStyleValidator> {

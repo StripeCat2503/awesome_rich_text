@@ -1,4 +1,4 @@
-import 'package:awesome_rich_text/src/constants/style.dart';
+import 'package:awesome_rich_text/src/style.dart';
 import 'package:awesome_rich_text/src/mappers/mappers.dart';
 import 'package:flutter/material.dart';
 

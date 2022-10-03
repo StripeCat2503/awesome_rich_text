@@ -1,4 +1,4 @@
-import 'package:awesome_rich_text/src/mappers/base_mapper.dart';
+import 'package:awesome_rich_text/src/mappers/base.dart';
 import 'package:flutter/material.dart';
 
 class FontWeightMapper extends BaseMapper<FontWeight> {

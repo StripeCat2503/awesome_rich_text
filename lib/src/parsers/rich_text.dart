@@ -1,8 +1,8 @@
 import 'dart:developer';
 
-import 'package:awesome_rich_text/src/parsers/base_text_parser.dart';
+import 'package:awesome_rich_text/src/parsers/base.dart';
 import 'package:awesome_rich_text/src/parsers/parsers.dart';
-import 'package:awesome_rich_text/src/validators/rich_text_validator.dart';
+import 'package:awesome_rich_text/src/validators/rich_text.dart';
 import 'package:flutter/widgets.dart';
 
 class RichTextParser extends BaseTextParser<List<TextSpan>, RichTextValidator> {

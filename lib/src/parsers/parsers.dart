@@ -1,6 +1,6 @@
-import 'package:awesome_rich_text/src/parsers/rich_text_parser.dart';
-import 'package:awesome_rich_text/src/parsers/text_span_parser.dart';
-import 'package:awesome_rich_text/src/parsers/text_style_parser.dart';
+import 'package:awesome_rich_text/src/parsers/rich_text.dart';
+import 'package:awesome_rich_text/src/parsers/text_span.dart';
+import 'package:awesome_rich_text/src/parsers/text_style.dart';
 import 'package:flutter/material.dart';
 
 class Parsers {

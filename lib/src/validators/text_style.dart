@@ -1,4 +1,4 @@
-import 'package:awesome_rich_text/src/validators/base_validator.dart';
+import 'package:awesome_rich_text/src/validators/base.dart';
 
 class TextStyleValidator extends BaseValidator {
   TextStyleValidator(String s) : super(s);
