@@ -66,6 +66,14 @@ extension StyledMapExtension on Map<String, String> {
             ),
           );
           break;
+        case Style.style:
+          style = style.copyWith(
+            fontStyle: mapper<FontStyle>(
+              value,
+              defaultValue: style.fontStyle,
+            ),
+          );
+          break;
       }
     }
 

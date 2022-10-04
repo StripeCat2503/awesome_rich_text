@@ -6,4 +6,5 @@ class Style {
   static const bgColor = 'bgColor'; // background color
   static const ls = 'ls'; // letterSpacing
   static const ws = 'ws'; // wordSpacing
+  static const style = 'style'; // fontStyle
 }

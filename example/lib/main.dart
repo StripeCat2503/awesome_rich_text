@@ -29,7 +29,7 @@ class AwesomeRichTextExample extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: AwesomeRichText(
-          'Hello {fw: bold, ws: 20, ls: 10, bgColor: #dedede}`world! 123`',
+          'Hello {fw: bold, style: italic}`world! 123`',
           style: const TextStyle(
             color: Colors.black54,
             fontSize: 24,

@@ -1,3 +1,4 @@
+import 'package:awesome_rich_text/src/mappers/font_style.dart';
 import 'package:awesome_rich_text/src/style.dart';
 import 'package:awesome_rich_text/src/mappers/base.dart';
 import 'package:awesome_rich_text/src/mappers/color.dart';
@@ -13,6 +14,7 @@ Map<String, BaseMapper> _mappers(String value) => {
       Style.bgColor: ColorMapper(value),
       Style.ls: DoubleMapper(value),
       Style.ws: DoubleMapper(value),
+      Style.style: FontStyleMapper(value),
     };
 
 T? mapper<T>(
