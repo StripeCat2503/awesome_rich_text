@@ -10,17 +10,61 @@ extension StyledMapExtension on Map<String, String> {
       final value = entry.value;
 
       switch (key) {
+        case Style.bgColor:
+          style = style.copyWith(
+            backgroundColor: mapper<Color>(
+              value,
+              defaultValue: style.backgroundColor,
+            ),
+          );
+          break;
         case Style.color:
-          style = style.copyWith(color: mapper<Color>(value));
+          style = style.copyWith(
+            color: mapper<Color>(
+              value,
+              defaultValue: style.color,
+            ),
+          );
           break;
         case Style.fs:
-          style = style.copyWith(fontSize: mapper<double>(value));
+          style = style.copyWith(
+            fontSize: mapper<double>(
+              value,
+              defaultValue: style.fontSize,
+            ),
+          );
           break;
         case Style.fw:
-          style = style.copyWith(fontWeight: mapper<FontWeight>(value));
+          style = style.copyWith(
+            fontWeight: mapper<FontWeight>(
+              value,
+              defaultValue: style.fontWeight,
+            ),
+          );
           break;
         case Style.fm:
-          style = style.copyWith(fontFamily: mapper<String>(value));
+          style = style.copyWith(
+            fontFamily: mapper<String>(
+              value,
+              defaultValue: style.fontFamily,
+            ),
+          );
+          break;
+        case Style.ls:
+          style = style.copyWith(
+            letterSpacing: mapper<double>(
+              value,
+              defaultValue: style.letterSpacing,
+            ),
+          );
+          break;
+        case Style.ws:
+          style = style.copyWith(
+            wordSpacing: mapper<double>(
+              value,
+              defaultValue: style.wordSpacing,
+            ),
+          );
           break;
       }
     }

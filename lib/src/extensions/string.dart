@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension StringExtension on String {
+extension StringColorExtension on String {
   Color? get color {
     var hexColor = replaceAll('#', '');
 
